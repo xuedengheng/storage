@@ -4,7 +4,7 @@ a storage lib which support localStorage and sessionStorage with the same api
 ## Install
 
 ```
- npm install storage-controller
+ npm install storage-controller --save
 ```
 
 ## Usage
