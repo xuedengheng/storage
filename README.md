@@ -1,13 +1,13 @@
 # storage-controller
 a storage lib which support localStorage and sessionStorage with the same api
-
-## Install
+一个本地存储工具，通过相同的api去支持`localStorage`和`sessionStorage`
+## 安装
 
 ```
  npm install storage-controller --save
 ```
 
-## Usage
+## 使用
 
 ```
  import storage from 'storage-controller'
@@ -28,28 +28,28 @@ a storage lib which support localStorage and sessionStorage with the same api
 
 #### set(key, val)
 
-set storage with key and val
+存储storage，key为键，val为值
 
 #### get(key, def)
 
-get storage with key, return def if not find
+根据key去获取storage，def为默认值, 如果找不到会返回def
 
 #### remove(key)
 
-remove storage with key
+根据key去删除storage
 
 #### has(key)
 
-determine storage has the key
+根据key去判断storage是否存在
 
 #### clear()
-clear all storages
+删除所有storage
 
 #### getAll()
-get all the storages
+获取所有storage
 
 #### forEach(callback)
-forEach the storages and call the callback function with each storage
+循环所有的storage，callback为回调函数
 
 #### session `<Object>`
-extends all up api
+sessionStorage操作，继承localStorage所有api
