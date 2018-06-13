@@ -2,19 +2,19 @@ var path = require('path');
 var webpack = require('webpack');
 var version = require('./package.json').version;
 
-function resolve (dir) {
+function resolve(dir) {
   return path.join(__dirname, './', dir)
 }
 
 module.exports = {
-	entry: './src/index',
-	output: {
-		path: path.resolve(__dirname, 'dist'),
-		filename: 'storage.js',
-		library: 'storage',
-		libraryTarget: 'umd'
-	},
-	module: {
+  entry: './src/index',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'storage.js',
+    library: 'storage',
+    libraryTarget: 'umd'
+  },
+  module: {
     rules: [
       {
         test: /\.js$/,
@@ -31,10 +31,10 @@ module.exports = {
         include: [resolve('src')]
       }
     ]
-	},
-	plugins: [
-		new webpack.DefinePlugin({
-			__VERSION__: JSON.stringify(version)
-		})
-	]
-};
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      __VERSION__: JSON.stringify(version)
+    })
+  ]
+}
