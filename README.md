@@ -1,5 +1,4 @@
 # storage-controller
-a storage lib which support localStorage and sessionStorage with the same api
 一个本地存储工具，通过相同的api去支持`localStorage`和`sessionStorage`
 ## 安装
 

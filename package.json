@@ -1,6 +1,6 @@
 {
   "name": "storage-controller",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a storage lib which support sessionStorage and localStorage with the same api",
   "main": "dist/storage.js",
   "scripts": {
