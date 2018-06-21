@@ -1,5 +1,10 @@
 # storage-controller
 一个本地存储工具，通过相同的api去支持`localStorage`和`sessionStorage`
+
+<a href="https://circleci.com/gh/tuateam/tua-storage/tree/master"><img src="https://img.shields.io/circleci/project/tuateam/tua-storage/master.svg" alt="Build Status"></a>
+<a href="https://codecov.io/gh/xuedengheng/storage"><img src="https://codecov.io/gh/xuedengheng/storage/branch/master/graph/badge.svg" alt="Coverage Status"></a>
+<a href="https://www.npmjs.com/package/storage-controller"><img src="https://img.shields.io/npm/v/storage-controller.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/storage-controller"><img src="https://img.shields.io/npm/l/storage-controller.svg" alt="License"></a>
 ## 安装
 
 ```
